@@ -9,13 +9,13 @@ docker build -t tman-demo-service-go:latest .
 ## 如何运行服务
 
 ```bash
-docker run -d -p 8080:80 -it tman-demo-service-go:latest
+docker run -d -p 8082:80 -it tman-demo-service-go:latest
 ```
 
 ## 如何访问服务
 
 ```bash
-curl http://127.0.0.1:8080/api/status
+curl http://127.0.0.1:8082/api/status
 ```
 
 返回结果为 `{"Status":"Healthy"}`
