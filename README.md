@@ -22,7 +22,7 @@ curl http://127.0.0.1:8083/api/status
 
 ## 如何部署所有的服务
 
-![screenshot](screenshot.png)
+![screenshot](https://github.com/seoktaehyeon/tman-demo-service-js/raw/master/screenshot.png)
 
 ```bash
 docker-compose -f compose.yaml pull
